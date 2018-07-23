@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  num = array.size - 1
+  while num> -1
+    value = array[num]
+    array[num] = value*value
+  end
 end
